@@ -1,0 +1,4 @@
+repository "New Unity Project@wechat_os_Qy0_hlDil1B5iIvgOUPBh46KI@cloud"
+  path "/"
+    br "/main"
+    co "/main"
