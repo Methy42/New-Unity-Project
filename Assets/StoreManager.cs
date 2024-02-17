@@ -55,7 +55,7 @@ public class StoreManager : Singleton<StoreManager>
         itemPreviewPanel.SetActive(true);
         // itemPreviewPanel.transform.Find("ItemPreview").GetComponent<RawImage>().sprite = currentPreviewItem.itemPreviewImage;
         itemPreviewPanel.transform.Find("ItemName").Find("Label").GetComponent<Text>().text = currentPreviewItem.name;
-        itemPreviewPanel.transform.Find("ItemEffect").Find("Text").GetComponent<Text>().text = currentPreviewItem.effect;
+        itemPreviewPanel.transform.Find("ItemEffect").Find("Text").GetComponent<Text>().text = currentPreviewItem.effect.ToString();
         itemPreviewPanel.transform.Find("ItemDetail").Find("Text").GetComponent<Text>().text = currentPreviewItem.detail;
         itemPreviewPanel.transform.Find("Remarks").Find("Text").GetComponent<Text>().text = "点击右键购买";
     }

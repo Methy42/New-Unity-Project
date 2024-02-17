@@ -8,12 +8,12 @@ public class ItemEntity
 {
     public int id;
     public string name;
-    public string effect;
+    public EffectEnity effect;
     public string detail;
     public GameObject itemGameObject;
     public Sprite itemPreviewImage;
 
-    public ItemEntity(int id, string name, string effect, string detail, GameObject itemGameObject, Sprite itemPreviewImage)
+    public ItemEntity(int id, string name, EffectEnity effect, string detail, GameObject itemGameObject, Sprite itemPreviewImage)
     {
         this.id = id;
         this.name = name;
